@@ -34,10 +34,47 @@ print(values[6]) """
 """ 
 "test"
 ["t","e","s","t"] """
+""" """ 
 """ x = "this is a thing"
- """""" y= x.split( )
+y= x.split( )
 z = y[0]
 print(y)
 print(z) """
-word=input("")
-x=word.split()
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+""" x = "test"
+print(f"hello {x}") """
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+""" now=0
+userword = input("Words please")
+y = userword.split()
+for i in y:
+    now+=1
+print(now)    
+ """
+""" 
+bill = input("Bill")
+tip = input("Tip")
+float(bill)
+int(tip)
+total = float(bill) + float(tip)
+print(f"total ${total}, bill ${bill}, tip ${tip}") """
+number=1284
+evenorodd=0
+for i in range(number):
+    evenorodd+=2
+    print(evenorodd)
+    if evenorodd == number:
+        print("Even")
+    if evenorodd > number:
+        print("Odd")
