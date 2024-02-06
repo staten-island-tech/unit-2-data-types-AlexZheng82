@@ -69,12 +69,55 @@ float(bill)
 int(tip)
 total = float(bill) + float(tip)
 print(f"total ${total}, bill ${bill}, tip ${tip}") """
-number=1284
+""" number=128472489621
 evenorodd=0
 for i in range(number):
-    evenorodd+=2
-    print(evenorodd)
-    if evenorodd == number:
-        print("Even")
-    if evenorodd > number:
-        print("Odd")
+    if evenorodd < number:
+        evenorodd+=2
+        print(evenorodd)
+if evenorodd == number:
+    print("Even")
+if evenorodd > number:
+    print("Odd") """
+""" bill = float(input("What is the bill?"))
+service = input("Was it bad, okay, good , or great")
+tip = 0
+if service == "bad":
+    print("0% tip")
+    print(f"You bill is $ {bill}")
+    print("You have tip $0")
+elif service == "okay":
+    print("15% tip")
+    bill = bill * 1.15
+    tip = bill * 0.15
+    print(f"You bill is $ {bill}")
+    print(f"You have tip $ {tip}")
+elif service == "good":
+    print("20% tip")
+    bill = bill * 1.20
+    tip = bill * 0.20
+    print(f"You bill is $ {bill}")
+    print(f"You have tip $ {tip}")
+elif service == "great":
+    print("25% tip")
+    bill = bill * 1.25
+    tip = bill * 0.25
+    print(f"You bill is $ {bill}")
+    print(f"You have tip $ {tip}") """
+number = int(input("Give number "))
+pain = 1
+sadness = 0
+aaa = number*number
+if pain < number: 
+    for i in (str(aaa)):
+        if sadness < number:
+            sadness = sadness + pain
+            print(sadness)
+        if sadness == number:
+            print(pain)
+            print(number/pain)
+            pain += 1
+            sadness = 0
+        if sadness > number:
+            pain += 1
+            sadness = 0
