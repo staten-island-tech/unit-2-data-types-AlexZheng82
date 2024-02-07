@@ -104,20 +104,54 @@ elif service == "great":
     tip = bill * 0.25
     print(f"You bill is $ {bill}")
     print(f"You have tip $ {tip}") """
-number = int(input("Give number "))
+""" number = int(input("Give number "))
 pain = 1
 sadness = 0
 aaa = number*number
-if pain < number: 
-    for i in (str(aaa)):
+for amom in range(aaa):
+    if pain < number: 
         if sadness < number:
             sadness = sadness + pain
-            print(sadness)
         if sadness == number:
             print(pain)
-            print(number/pain)
             pain += 1
             sadness = 0
         if sadness > number:
             pain += 1
             sadness = 0
+print(number) """
+numberone = int(input("Give number 1 "))
+numbertwo = int(input("Give number 2 "))
+painone = 1
+sadnessone = 0
+paintwo = 1
+sadnesstwo = 0
+aaa = (numberone+numbertwo)*(numberone+numbertwo)
+lcf = 0
+for amon in range(aaa):
+    if paintwo <= numbertwo:
+        for amom in range(aaa):
+            if paintwo <= numbertwo:
+                if sadnessone < numberone:
+                    sadnessone = sadnessone + painone
+                if sadnessone == numberone:
+                    #print(painone)
+                    if sadnesstwo < numbertwo:
+                        sadnesstwo = sadnesstwo + painone
+                        painone += 1
+                        sadnessone = 0
+                        sadnesstwo = 0
+                    if sadnesstwo == numbertwo:
+                        lcf = painone
+                        painone += 1
+                        sadnessone = 0
+                        sadnesstwo = 0
+                    if sadnesstwo > numbertwo:
+                        painone += 1
+                        sadnessone = 0
+                        sadnesstwo = 0
+                if sadnessone > numberone:
+                    painone += 1
+                    sadnessone = 0
+                    sadnesstwo = 0
+print(lcf)
