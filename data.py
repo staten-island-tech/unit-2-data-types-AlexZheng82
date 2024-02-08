@@ -122,8 +122,15 @@ for amom in range(aaa):
 print(number) """
 x = int(input("AAAAAAAAAAAAAAAAAA "))
 y = int(input("BBBBBBBBBBBBB "))
-def print_factor(x, y):
-    for i in range(1, x + y + 1):
-        if x % i == y % i:
-            
-print_factor(x)
+gcf = 0
+if x >= y:
+    for i in range(1, x):
+        if x % i == 0:
+            if y % i == 0:
+                gcf = i
+else:
+    for i in range(1, y):
+        if x % i == 0:
+            if y % i == 0:
+                gcf = i
+print(gcf)
