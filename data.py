@@ -120,7 +120,7 @@ for amom in range(aaa):
             pain += 1
             sadness = 0
 print(number) """
-x = int(input("AAAAAAAAAAAAAAAAAA "))
+""" x = int(input("AAAAAAAAAAAAAAAAAA "))
 y = int(input("BBBBBBBBBBBBB "))
 gcf = 0
 if x >= y:
@@ -133,4 +133,4 @@ else:
         if x % i == 0:
             if y % i == 0:
                 gcf = i
-print(gcf)
+print(gcf) """
