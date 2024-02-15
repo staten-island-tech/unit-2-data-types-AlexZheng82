@@ -120,8 +120,8 @@ for amom in range(aaa):
             pain += 1
             sadness = 0
 print(number) """
-""" x = int(input("AAAAAAAAAAAAAAAAAA "))
-y = int(input("BBBBBBBBBBBBB "))
+""" x = int(input("First number: "))
+y = int(input("Second number: "))
 gcf = 0
 if x >= y:
     for i in range(1, x):
