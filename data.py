@@ -54,14 +54,14 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold') """
-
-""" now=0
+#Word counting thing
+now=0
 userword = input("Words please")
 y = userword.split()
 for i in y:
     now+=1
 print(now)    
- """
+
 """ 
 bill = input("Bill")
 tip = input("Tip")
@@ -69,17 +69,13 @@ float(bill)
 int(tip)
 total = float(bill) + float(tip)
 print(f"total ${total}, bill ${bill}, tip ${tip}") """
-""" number=128472489621
-evenorodd=0
-for i in range(number):
-    if evenorodd < number:
-        evenorodd+=2
-        print(evenorodd)
-if evenorodd == number:
-    print("Even")
-if evenorodd > number:
-    print("Odd") """
-""" bill = float(input("What is the bill?"))
+#All factor thing #1
+number = 1000
+for i in range(1, number):
+    if number % i == 0:
+        print(i)
+#Tip claculator
+bill = float(input("What is the bill?"))
 service = input("Was it bad, okay, good , or great")
 tip = 0
 if service == "bad":
@@ -103,24 +99,14 @@ elif service == "great":
     bill = bill * 1.25
     tip = bill * 0.25
     print(f"You bill is $ {bill}")
-    print(f"You have tip $ {tip}") """
-""" number = int(input("Give number "))
-pain = 1
-sadness = 0
-aaa = number*number
-for amom in range(aaa):
-    if pain < number: 
-        if sadness < number:
-            sadness = sadness + pain
-        if sadness == number:
-            print(pain)
-            pain += 1
-            sadness = 0
-        if sadness > number:
-            pain += 1
-            sadness = 0
-print(number) """
-""" x = int(input("First number: "))
+    print(f"You have tip $ {tip}")
+#All factor
+number = int(input("Give number "))
+for i in range(1, number):
+    if number % i == 0:
+        print(i)
+#GCF
+x = int(input("First number: "))
 y = int(input("Second number: "))
 gcf = 0
 if x >= y:
@@ -133,4 +119,4 @@ else:
         if x % i == 0:
             if y % i == 0:
                 gcf = i
-print(gcf) """
+print(gcf)
